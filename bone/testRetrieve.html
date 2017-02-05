@@ -1,0 +1,24 @@
+<html>
+
+<body>
+Getting the text from said website.
+    
+    
+</body>
+<script type="text/javascript">
+
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = process;
+xhr.open("GET", "https://stormy-tor-35371.herokuapp.com/", true);
+xhr.send();
+
+function process()
+{
+  if (xhr.readyState == 4) {
+
+    // resp now has the text and you can process it.
+      console.log(xhr.responseText);
+  }
+}
+</script>
+</html>

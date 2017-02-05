@@ -1,0 +1,44 @@
+ol {
+    padding-top: 5%;
+    width:100%;
+    
+}
+
+input {
+    margin-top:1%;
+    width: 10%;
+}
+
+.btn-success {
+
+    margin-left: 20px;
+}
+
+.testo {
+    margin-left: 50px;
+}
+
+iframe {
+    margin-top: -20%;
+    margin-left: 40%;
+    margin-bottom: 50%;
+    border-width: 0px;
+    position: fixed;
+}
+
+.btn-primary {
+    margin-top: 15%;   
+    margin-left: 2%;
+}
+
+.col-xs-4 {
+    width: 51.333333%;
+}
+
+.list-group-item {
+    width: 55%;
+}
+
+.popover {
+    margin-left: -58%;
+}
