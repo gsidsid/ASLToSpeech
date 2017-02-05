@@ -1,27 +1,7 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Bare](http://startbootstrap.com/template-overviews/bare/)
+## ASL Sign-to-Text Interface
 
-[Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
+This program takes hand sign input through a Leap Motion controller and outputs speech for any trained hand sign. Hand sign training, as follows, is relatively simple, and requires minimal effort to complete (although future implementation of ML is desirable, considering a single training session attains only sub-par accuracy at best).
 
-## Getting Started
+To add a hand sign, click "Add a new gesture" and type in the speech equivalent that the hand sign should generate. Hit enter when finished typing, and wait for the "Record gesture" button to appear. Click the "Record gesture" button and hold a pose or repeat a gesture for 5 seconds in the leap motion's view.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/bare/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-bare.git`
-* Fork the repo
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-bare/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/bare/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-bare/blob/gh-pages/LICENSE) license.
+Any number of hand signs and words can be trained in this fashion, ultimately scaling up to a fully responsive interface. The training can be crowdsourced, and a database with training words and letters can be established, although this was out of the scope of what we could accomplish in 24 hours.
